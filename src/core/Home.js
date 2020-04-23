@@ -1,15 +1,16 @@
 import React from 'react';
 import Posts from '../posts/Posts';
-import {Link} from 'react-router-dom';
-import homesta from '../Images/homesta.jpg'
+import {Link} from 'react-router-dom'
 
 const Home = () => (
     <div>
-        <div className="jumbotron bg-muted text-body">
-            <h2>Welcome</h2>
-            <p className = "lead">Hello Cricket Freaks</p>
+        <div className="jumbotron bg-muted text-body" style={{backgroundImage:`url(${require("../Images/stadium.jpg")})`, width: "100%",backgroundSize: "100%"}}>
+            <h2 style = {{color:'white'}}>Welcome</h2>
+            
         </div>
         <div className="container">
+        <h1 style={{fontFamily: "Italic"}}>Hello Cricket Freaks</h1>
+        <br />
         <Link className="btn btn-raised btn-info mr-5" to={`/post/create`}>
             Create Post
         </Link>
