@@ -5,7 +5,6 @@ import {Link} from 'react-router-dom'
 const Home = () => (
     <div>
         <div className="jumbotron bg-muted text-body" style={{backgroundImage:`url(${require("../Images/stadium.jpg")})`, width: "100%",backgroundSize: "100%"}}>
-            <h2 style = {{color:'white'}}>Welcome</h2>
             
         </div>
         <div className="container">
