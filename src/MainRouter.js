@@ -13,7 +13,8 @@ import NewPost from './posts/NewPost';
 import SinglePost from './posts/SinglePost';
 import EditPost from './posts/EditPost';
 import ForgotPassword from './user/ForgotPassword';
-import ResetPassword from './user/ResetPassword'
+import ResetPassword from './user/ResetPassword';
+import About from './core/About'
 
 const MainRouter = () => (
     <div>
@@ -31,6 +32,7 @@ const MainRouter = () => (
             <PrivateRoute exact path="/user/edit/:userId" component = {EditProfile}/>
             <PrivateRoute exact path="/user/:userId" component = {Profile}/>
             <PrivateRoute exact path="/findPeople" component = {FindPeople}/>
+            <Route exact path="/about" component = {About}></Route>
         </Switch>
     </div>
 )

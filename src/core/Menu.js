@@ -17,6 +17,9 @@ const Menu = ({history}) => (
             <li className="nav-item">
                 <Link className = "nav-link"  style = {isActive(history,"/users")} to = "/users">Users</Link>
             </li>
+            <li className="nav-item">
+                <Link className = "nav-link"  style = {isActive(history,"/about")} to = "/about">About</Link>
+            </li>
             {!isAuthenticated() && (
                 <>
                     <li className="nav-item">  
