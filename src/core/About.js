@@ -2,13 +2,16 @@ import React from 'react';
 import harish from "../Images/harish.jpg";
 import ajay from "../Images/ajay.jpeg";
 import pai from "../Images/pai.jpeg";
+
 const About = () => (
     <div>
-        <div className="jumbotron bg-muted text-body">
+        <div className="jumbotron">
             <h1>Welcome</h1>
-            <h2 className = "lead">Our products will be rolled out soon...stay tuned</h2>
-            <h4>Cricket is the most popular played game in India. Being passionate about cricket, we have decided to launch a website.</h4>
-            <h4>The objective of our website is to organize people of similar thougts who are into the world of CRICKET. Everybody can post their views and discuss. We will be also working on our products...</h4>
+            <hr />
+            <h3 style={{backgroundColor: "lightblue"}}>Our products will be rolled out soon...stay tuned</h3>
+            <br />
+            <h5 style={{fontFamily: "Italic"}}>Cricket is the most popular played game in India. Being passionate about cricket, we have decided to launch a website.</h5>
+            <h5 style={{fontFamily: "Italic"}}>The objective of our website is to organize people of similar thougts who are into the world of CRICKET. Everybody can post their views and discuss. We will be also working on our products...</h5>
         </div>
         <div className = "container">
             <div className="row">
