@@ -8,7 +8,7 @@ const Home = () => (
             
         </div>
         <div className="container">
-        <h1 style={{fontFamily: "Italic"}}>Hello Cricket Freaks</h1>
+        <h1 style={{fontFamily: "Italic"}}>Beyond the Pavilion</h1>
         <br />
         <Link className="btn btn-raised btn-info mr-5" to={`/post/create`}>
             Create Post
