@@ -7,7 +7,8 @@ const About = () => (
         <div className="jumbotron bg-muted text-body">
             <h1>Welcome</h1>
             <h2 className = "lead">Our products will be rolled out soon...stay tuned</h2>
-            <h4>The objective of our website is to organize people of similar thougts who are into the world of CRICKET. Post their views and discuss. We will be also working on our products...</h4>
+            <h4>Cricket is the most popular played game in India. Being passionate about cricket, we have decided to launch a website.</h4>
+            <h4>The objective of our website is to organize people of similar thougts who are into the world of CRICKET. Everybody can post their views and discuss. We will be also working on our products...</h4>
         </div>
         <div className = "container">
             <div className="row">
