@@ -1,7 +1,7 @@
 import React from 'react';
 import Posts from '../posts/Posts';
 import {Link} from 'react-router-dom';
-import homesta from './Images/homsta.jpg'
+import homesta from '../Images/homsta.jpg'
 
 const Home = () => (
     <div>
