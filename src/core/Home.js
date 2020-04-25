@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const Home = () => (
     <div>
-        <div className="jumbotron" style={{backgroundImage:`url(${require("../Images/stadium.jpg")})`,height:"300px",backgroundSize: "100%"}}>
+        <div className="jumbotron" style={{backgroundImage:`url(${require("../Images/stadium.jpg")})`,backgroundSize: "100%"}}>
         </div>
         <div className="container">
         <h1 style={{fontFamily: "Italic"}}>Beyond the Pavilion</h1>
