@@ -5,16 +5,18 @@ import pai from "../Images/pai.jpeg";
 
 const About = () => (
     <div>
-        <div className="jumbotron">
-            <h1>Welcome</h1>
+        <div className="jumbotron" style={{backgroundImage:`url(${require("../Images/stadium.jpg")})`,backgroundSize: "100%"}}>
+           
+        </div>
+        <div className = "container">
+        <h1>Team BeyondthePavilion</h1>
             <hr />
             <h3 style={{backgroundColor: "lightblue"}}>Our products will be rolled out soon...stay tuned</h3>
             <br />
             <h5 style={{fontFamily: "Italic"}}>Cricket is the most popular played game in India. Being passionate about cricket, we have decided to launch a website.</h5>
             <h5 style={{fontFamily: "Italic"}}>The objective of our website is to organize people of similar thougts who are into the world of CRICKET. Everybody can post their views and discuss. We will be also working on our products...</h5>
-        </div>
-        <div className = "container">
-            <div className="row">
+            <br />
+        <div className="row">
         <div className="card col-md-4">
                         <img style={{ height:"300px",width:"auto"}} className="img-thumbnail" src={ `${pai}`}
                         atl="Harish" />
