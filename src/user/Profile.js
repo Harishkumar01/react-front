@@ -101,7 +101,7 @@ class Profile extends Component {
                     </div>
                     <div className="col-md-8">
                         <div className="lead mt-2">
-                            <p>Hello {user.name}</p>
+                            <p>Name: {user.name}</p>
                             <p>Email: {user.email}</p>
                             <p>{`Joined ${new Date (user.created).toDateString()}`}</p>
                         </div>
@@ -120,6 +120,7 @@ class Profile extends Component {
                         <hr/>
                         <p className="lead">{user.about}</p>
                         <hr/>
+                        <br /> 
                             <ProfileTabs followers = {user.followers} following = {user.following} posts={posts} /> 
                     </div>
                 </div>

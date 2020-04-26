@@ -9,8 +9,8 @@ class ProfileTabs extends Component {
         return ( 
             <div>
                 <div className="row">
-                    <div className="col-md-4">
-                        <h3 className="text-primary">{followers.length} followers</h3>
+                    <div className="card col-md-4">
+                        <h3 className="text-dark">{followers.length} followers</h3>
                         <hr />
                         {followers.map((person, i) => (  
                             <div key={i}>
@@ -21,7 +21,7 @@ class ProfileTabs extends Component {
                                             src={`${process.env.REACT_APP_API_URL}/user/photo/${person._id}?${new Date().getTime()}`} 
                                             onError={i => (i.target.src = `${defaultprofile}`)} alt={person.name} />
                                             <div>
-                                                <p className="lead">{person.name}</p>
+                                                <p className="lead" style={{fontFamily: "Italic"}}>{person.name}</p>
                                             </div>
                                         </Link>
                                     </div>
@@ -29,8 +29,8 @@ class ProfileTabs extends Component {
                         
                     ))}
                     </div>
-                    <div className="col-md-4">
-                        <h3 className="text-primary">following {following.length}</h3>
+                    <div className="card col-md-4">
+                        <h3 className="text-dark">following {following.length}</h3>
                         <hr />
                         {following.map((person, i) => (  
                             <div key={i}>
@@ -38,7 +38,7 @@ class ProfileTabs extends Component {
                                         <Link to={`/user/${person._id}`}>
                                             <img style={{borderRadius:"50%",border: "1px solid black"}} className = "float-left mr-2" height="30px" width="30px"  src={`${process.env.REACT_APP_API_URL}/user/photo/${person._id}?${new Date().getTime()}`} onError={i => (i.target.src = `${defaultprofile}`)} alt={person.name} />
                                             <div>
-                                                <p className="lead">{person.name}</p>
+                                                <p className="lead"  style={{fontFamily: "Italic"}}>{person.name}</p>
                                             </div>
                                         </Link>
                                     </div>
@@ -46,15 +46,15 @@ class ProfileTabs extends Component {
                         
                     ))}
                     </div>
-                    <div className="col-md-4">
-                        <h3 className="text-primary">{posts.length} Posts</h3>
+                    <div className="card col-md-4">
+                        <h3 className="text-dark">{posts.length} Posts</h3>
                         <hr />
                         {posts.map((post, i) => (  
                             <div key={i}>
                                     <div>
                                         <Link to={`/post/${post._id}`}>
                                             <div>
-                                                <p className="lead">{post.title}</p>
+                                                <p className="lead"  style={{fontFamily: "Italic"}}>{post.title}</p>
                                             </div>
                                         </Link>
                                     </div>
