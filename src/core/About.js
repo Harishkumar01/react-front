@@ -9,7 +9,7 @@ const About = () => (
            
         </div>
         <div className = "container">
-        <h1>Team BeyondthePavilion</h1>
+        <h1 style={{textAlign: "center"}}  >Team BeyondthePavilion</h1>
             <hr />
             <h3 style={{backgroundColor: "lightblue"}}>Our products will be rolled out soon...stay tuned</h3>
             <br />
