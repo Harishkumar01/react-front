@@ -7,7 +7,9 @@ const Home = () => (
         <div className="jumbotron" style={{backgroundImage:`url(${require("../Images/stadium.jpg")})`,backgroundSize: "100%"}}>
         </div>
         <div className="container">
-        <h1 style={{fontFamily: "Italic"}}>Beyond the Pavilion</h1>
+        <h1 style={{fontFamily: "Italic"}}>
+            Beyond the Pavilion
+        </h1>
         <br />
         <h1 style={{textAlign: "center"}} >
         <Link className="btn btn-raised btn-info mr-5" to={`/post/create`}>
