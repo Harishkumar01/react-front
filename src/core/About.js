@@ -1,6 +1,6 @@
 import React from 'react';
 import harish from "../Images/harish.jpg";
-import ajay from "../Images/aj.jpeg";
+import ajay from "../Images/ajay.jpeg";
 import pai from "../Images/pai.jpeg";
 import aki from "../Images/aki.jpeg";
 import madhu from "../Images/madhu.jpeg";
