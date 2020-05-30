@@ -29,7 +29,7 @@ const Products = () => (
                 <br ></br>
                 <div style={{display: 'flex', justifyContent: 'center'}}>
                     <ReactPlayer
-                        url="https://www.youtube.com/watch?v=IkPF5xIJ1qw"
+                        //url="https://www.youtube.com/watch?v=IkPF5xIJ1qw"
                     />
                 </div>
                 
