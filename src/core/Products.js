@@ -33,7 +33,7 @@ const Products = () => (
                 </h5>
                 <br ></br>
                 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6658947049247113216?compact=1" 
-                        height="284" width="504" frameborder="0" allowfullscreen="" title="Embedded post">
+                        height="284" width="390" frameborder="0" allowfullscreen="" title="Embedded post">
                 </iframe>
                 
                 {/*<div style={{display: 'flex', justifyContent: 'center'}}>
