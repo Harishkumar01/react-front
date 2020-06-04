@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
+import auction from "../Images/Auction_Image.jpeg";
 
 const Products = () => (
     <div>
@@ -10,12 +11,16 @@ const Products = () => (
         <h1 style={{textAlign: "center"}}  >Team BeyondthePavilion</h1>
             <hr />
             <br />
+
+        <div className="row">
+        
+        <div className="card col-md-6 border border-dark">
             <div>
-                <h3 style={{fontFamily: "Italic"}}>Net Practice Session Analyser</h3>
+                <h3 >Net Practice Session Analyser</h3>
                 <br />
-                <h5>
+                <h4 style={{fontFamily: "Italic", color: "#ff9900"}}>
                     Boost your game with Videoanalytics!
-                </h5>
+                </h4>
                 <br />
                 <h5>
                 Cricket is generally practiced in nets. Analyzing the net practice sessions is key in improving the performance of the game.
@@ -27,17 +32,27 @@ const Products = () => (
                 This is just the beginning of the project. The best is yet to come. Credits to the Strength Speed Agility cricket academy for the net practice video
                 </h5>
                 <br ></br>
-
-                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6658947049247113216" height="826" width="1100" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-                <div style={{display: 'flex', justifyContent: 'center'}}>
-                    <ReactPlayer
-                        //url="https://www.youtube.com/watch?v=IkPF5xIJ1qw"
-                    />
-                </div>
+                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6658947049247113216?compact=1" 
+                        height="284" width="504" frameborder="0" allowfullscreen="" title="Embedded post">
+                </iframe>
                 
-            </div>
+                {/*<div style={{display: 'flex', justifyContent: 'center'}}>
+                    <ReactPlayer
+                        url="https://www.youtube.com/watch?v=IkPF5xIJ1qw"
+                    />
+                </div>*/}
+                
+            </div>   
         </div>
-        
+        <div className="card col-md-6 border border-dark">
+            <div>
+                <img style={{ height:"750px",width:"750px"}} className="img-thumbnail" src={ `${auction}`}
+                    atl="Product : #2" />
+            </div>   
+        </div>
+        </div>
+        </div>
     </div>
+        
 );
 export default Products;

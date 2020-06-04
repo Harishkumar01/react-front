@@ -22,7 +22,7 @@ const About = () => (
         
         <div className="card col-md-3">
                         <img style={{ height:"300px",width:"auto"}} className="img-thumbnail" src={ `${ajay}`}
-                        atl="Harish" />
+                        atl="Ajay" />
                         <div className="card-body">
                             <h5 className="card-title">Ajay Damodar</h5>
                             <p className="card-text">theajay1799@gmail.com</p>
@@ -32,7 +32,7 @@ const About = () => (
         </div>
         <div className="card col-md-3">
                         <img style={{ height:"300px",width:"auto"}} className="img-thumbnail" src={ `${aki}`}
-                        atl="Harish" />
+                        atl="Akhilesh" />
                         <div className="card-body">
                             <h5 className="card-title">Akhilesh R</h5>
                             <p className="card-text">akhilramkee123@gmail.com</p>
@@ -42,7 +42,7 @@ const About = () => (
         </div>
         <div className="card col-md-3">
                         <img style={{ height:"300px",width:"auto"}} className="img-thumbnail" src={ `${madhu}`}
-                        atl="Harish" />
+                        atl="Madhu" />
                         <div className="card-body">
                             <h5 className="card-title">Madhupprasad</h5>
                             <p className="card-text">madhupprasad7@gmail.com</p>
@@ -62,7 +62,7 @@ const About = () => (
         </div>
         <div className="card col-md-3">
                         <img style={{ height:"300px",width:"auto"}} className="img-thumbnail" src={ `${pai}`}
-                        atl="Harish" />
+                        atl="Aravind" />
                         <div className="card-body">
                             <h5 className="card-title">Aravind</h5>
                             <p className="card-text">aravindpai23@gmail.com</p>
