@@ -5,20 +5,19 @@ import {Link} from 'react-router-dom'
 const Home = () => (
     <div>
         <div className="jumbotron" style={{backgroundImage:`url(${require("../Images/stadium.jpg")})`,backgroundSize: "100%"}}>
-        </div>
-        <div className="container">
-        <h1 style={{fontFamily: "Italic"}}>
+        <h1 style={{fontFamily: "Italic",color: "#ffffff"}}>
             Beyond the Pavilion
         </h1>
+        </div>
+        <div className="container">
         <br />
-        <h1 style={{textAlign: "center"}} >
-        <Link className="btn btn-raised btn-info mr-5" to={`/post/create`}>
-            Create Post
-        </Link>
-        <Link className="btn btn-raised btn-dark mr-5" to={`/products`}>
-            Products
-        </Link>
-        </h1>
+        <div className="alert alert-info">
+                Check out our <Link to ="/products">Products</Link>
+        </div>
+        <div className="alert alert-dark">
+                Create your own <Link className="dark" to ="/post/create">Posts</Link>
+        </div>
+        
         </div>
         <div className="container">
             <Posts />

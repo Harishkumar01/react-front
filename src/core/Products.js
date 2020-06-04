@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import auction from "../Images/Auction_Image.jpeg";
+import auction from "../Images/Auction_Image_2.jpeg";
 
 const Products = () => (
     <div>
