@@ -27,6 +27,8 @@ const Products = () => (
                 This is just the beginning of the project. The best is yet to come. Credits to the Strength Speed Agility cricket academy for the net practice video
                 </h5>
                 <br ></br>
+
+                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6658947049247113216" height="826" width="1100" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
                 <div style={{display: 'flex', justifyContent: 'center'}}>
                     <ReactPlayer
                         //url="https://www.youtube.com/watch?v=IkPF5xIJ1qw"
