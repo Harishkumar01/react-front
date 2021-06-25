@@ -6,7 +6,7 @@ const Home = () => (
     <div>
         <div className="jumbotron" style={{backgroundImage:`url(${require("../Images/stadium.jpg")})`,backgroundSize: "100%"}}>
         <h1 style={{fontFamily: "Italic",color: "#ffffff"}}>
-            Beyond the Pavilion - PitchReportz
+            Beyond the Pavilion
         </h1>
         </div>
         <div className="container">
